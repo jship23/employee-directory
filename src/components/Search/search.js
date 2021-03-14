@@ -1,7 +1,7 @@
 import React from "react";
 import "./search.css";
 
-function Search () {
+function Search (props) {
     console.log(props.searchValue)
     return (
         <form>
