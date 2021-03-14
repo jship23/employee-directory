@@ -51,7 +51,7 @@ function Table({results, nameFilter =""}) {
 
             <tbody>
                 {results.map((result, index)=>(
-                    <TableBody key = {index} result = {result} index = {index} />
+                    <TableBody key={index} result={result} index={index} />
                 ))}
             </tbody>
         </table>

@@ -4,7 +4,7 @@ function TableBody(props) {
     const { result, index } = props;
 
     return(
-        <tr>
+        <tr key={index}>
             <td>
                 <img alt="headshot" src={result.picture.large} />
             </td>
